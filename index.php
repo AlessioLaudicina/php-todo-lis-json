@@ -16,7 +16,7 @@
     <div class="container d-flex justify-content-center align-items-center">
         <div>
         <ul class="list-group" >
-            <li v-for="todo in todoList" class="list-group-item" >{{todo}}</li>
+            <li v-for="todo in todoList" class="list-group-item" :class="{'text-decoration-line-through' : todo.done}" >{{todo}}</li>
         </ul>
 
         
