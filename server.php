@@ -4,7 +4,7 @@
 
 if(file_exists('database.json')){
     $string = file_get_contents('database.json');
-$todoList = json_decode($string, true);
+    $todoList = json_decode($string, true);
 
 } else{
     $todoList = [];

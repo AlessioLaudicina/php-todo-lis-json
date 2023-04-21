@@ -27,7 +27,11 @@ createApp({
                 this.todoItem = ''
             })
 
-        }
+        },
+        // Funzione per cambiare il valore di done
+        // markTask() {
+        //   this.todoList.done = !todoList.done;
+        // }
     },
     mounted() {
         this.readList();
